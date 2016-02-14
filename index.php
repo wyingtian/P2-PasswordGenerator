@@ -65,8 +65,8 @@
                     <form action="index.php" method="POST">
                         <!--                    Choose how many words-->
                         <div class="form-group">
-                            <h4>How Many Words? (Range: 3 - 9) <p id="note">(If input invalid, use default value 5)</p>
-                            </h4>
+                            <h4>How Many Words? (Range: 3 - 9)</h4>
+                            <p id="note">(If input invalid, use default value 5)</p>
                             <input class="form-control" name="num_words" type="text" value=<?= $num_words ?>>
                         </div>
                         <hr>
@@ -155,13 +155,15 @@
                     <div class="panel-heading"><h3 class="panel-title"> Everyone Loves Comics!</h3></div>
                     <div class="panel-body">
                         <div id="slide_cont">
-                            <img class=" center-block img-rounded" src="images/image1.jpg" id="slideshow_image">
+                            <img class=" center-block img-rounded" src="images/image1.jpg" id="slideshow_image"
+                                 alt="comic-image">
                             <div class=" col-md-offset-3 col-md-1 col-sm-offset-3 col-sm-1 col-xs-offset-3 col-xs-1">
-                                <input type="image" id="prev_image" src="images/previous.png"></div>
+                                <input type="image" id="prev_image" src="images/previous.png" alt="next button">
+                            </div>
                             <div
-                                class=" col-md-offset-2 col-md-1 col-sm-offset-2 col-sm-1 col-sm-1 col-xs-offset-3 col-xs-1"
-                            ">
-                            <input type="image" id="next_image" src="images/next.png">
+                                class=" col-md-offset-2 col-md-1 col-sm-offset-2 col-sm-1 col-sm-1 col-xs-offset-3 col-xs-1">
+                                <input type="image" id="next_image" src="images/next.png" alt="next button">
+                            </div>
                         </div>
 
                         <input type="hidden" id="img_no" value="0">
