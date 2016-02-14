@@ -42,11 +42,11 @@
                 <div class="panel panel-success ">
                     <div class="panel-heading"><h3 class="panel-title"> Password Generator Guide</h3></div>
                     <div class="panel-body">
-                        <p>xkcd Password Generator is to generate a random secure password consisting a few of words.
+                        <p>xkcd Password Generator is to generate a random secure password consisting a few of words and characters.
                             <br>You have the following options:
                             <br>
                             1. How many words to use <br>
-                            2. What is the separator <br>
+                            2. Choose a separator between words <br>
                             3. Upper case or lower case <br>
                             4. Add special character or number </p>
                     </div>
