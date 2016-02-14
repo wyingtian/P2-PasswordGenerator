@@ -12,8 +12,8 @@ $(document).ready(function(){
 
 });
 
-// Write all the names of images in slideshow
-var images = [ "image1" , "image2" , "image3" ];
+// Write all the names of images in slide show
+var images = [ "image1" , "image2" , "image3", "image4" ];
 
 function prev(){
     $( '#slideshow_image' ).fadeOut(300,function()
