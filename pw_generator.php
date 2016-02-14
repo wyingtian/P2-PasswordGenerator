@@ -17,7 +17,7 @@ $add_special_char = "";
 //Default is not add random number at the begining
 $random_number_end = "";
 
-// once recieve form submission
+// once receive form submission
 if (isset($_POST['submit'])) {
     // form input validation, if invalid set to default number
     if (is_numeric($_POST["num_words"]) AND $_POST["num_words"] >= $MIN_NUM_WORDS AND $_POST["num_words"] <= $MAX_NUM_WORDS) {
@@ -41,7 +41,7 @@ function passwordGenerator($num_words, $separator, $letter_case, $random_number_
     $wordList = file("words.txt", FILE_IGNORE_NEW_LINES);
     $words_total_num = sizeof($wordList);
     $rand_words = "";
-    //array contains specail chars
+    //array contains special chars
     $SPECIAL_CHARS = ['!', '@', '#', '$', '%', '^', '&', '*'];
 
     for ($i = 1; $i <= $num_words; $i++) {
@@ -66,8 +66,10 @@ function passwordGenerator($num_words, $separator, $letter_case, $random_number_
     $password = $rand_words;
     return $password;
 }
+
 //helper function called by passwordGenerator to change case
-function adjustCase($letter_case, $word){
+function adjustCase($letter_case, $word)
+{
     if ($letter_case === "first_uppercase") {
         return ucfirst($word);
     } else if ($letter_case === "all_uppercase") {
@@ -75,4 +77,3 @@ function adjustCase($letter_case, $word){
     } else return $word;
 }
 
-?>
