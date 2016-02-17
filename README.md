@@ -4,7 +4,7 @@
 <http://p2.yingtian.me>
 
 ## Youtube Demo 
-<https://youtu./>
+<https://youtu.be/sMKPfWR8ngs/>
 
 ## Description
 This is a web application to generate a xkcd password.
@@ -28,3 +28,4 @@ This is a web application to generate a xkcd password.
 * Bootstrap: <http://getbootstrap.com/>
 * Word list: <https://github.com/first20hours/google-10000-english>
 * Displaying comic photos javascript: <http://talkerscode.com/webtricks/basic-image-slideshow-with-previous-and-next-button-using-jquery.php>
+* Comic photos are from google image search and xkcd comics.
