@@ -42,7 +42,7 @@
                 <div class="panel panel-success ">
                     <div class="panel-heading"><h3 class="panel-title"> Password Generator Guide</h3></div>
                     <div class="panel-body">
-                        <p>xkcd Password Generator is to generate a random secure password consisting a few of words and characters.
+                        <p>xkcd Password Generator is to generate a random secure password consisting a few words and characters.
                             <br>You have the following options:
                             <br>
                             1. How many words to use <br>
@@ -65,14 +65,14 @@
                     <form action="index.php" method="POST">
                         <!--                    Choose how many words-->
                         <div class="form-group">
-                            <h4>How Many Words? (Range: 3 - 9)</h4>
+                            <h4>How Many Words?   (Range: 3 - 9)</h4>
                             <p id="note">(If input invalid, use default value 5)</p>
                             <input class="form-control" name="num_words" type="text" value=<?= $num_words ?>>
                         </div>
                         <hr>
                         <!--                        choose the separator-->
                         <div class="form-group">
-                            <h4>Choose a Separator </h4>
+                            <h4>Choose a Separator! </h4>
                             <select name="separator" class="form-control">
                                 <option value="-" <?php if ($separator === "-") {
                                     echo "selected";
